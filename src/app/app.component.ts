@@ -1,4 +1,5 @@
-import {Component} from '@angular/core'
+import {asNativeElements, Component} from '@angular/core'
+
 
 @Component({
     selector: 'bwm-app',
@@ -6,5 +7,12 @@ import {Component} from '@angular/core'
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+   public counter: number = 0;
+
+
+   public increment(event: any, incrementor: number) {
+    console.log(console);
+    this.counter += incrementor; 
+   }
 
 }
