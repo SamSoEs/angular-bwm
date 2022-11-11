@@ -11,7 +11,7 @@ export class AppComponent {
 
 
    public increment(event: any, incrementor: number) {
-    console.log(console);
+    console.log();
     this.counter += incrementor; 
    }
 
