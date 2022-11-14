@@ -6,6 +6,8 @@ import { CommonModule } from "@angular/common";
 import { RentalDetailComponent } from './rental-detail/rental-detail.component';
 import { RentalListingComponent } from './rental-listing/rental-listing.component';
 import { RentalComponent } from "./rental.component";
+import { RentalCardComponent } from '../shared/rental-card/rental-card.component';
+
 import { RentalService } from "./shared/rental.service";
 
 
@@ -30,7 +32,8 @@ const routes: Routes = [
     declarations: [
         RentalDetailComponent,
         RentalListingComponent,
-        RentalComponent
+        RentalComponent,
+        RentalCardComponent
     ],
     providers: [
         RentalService

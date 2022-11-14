@@ -10,7 +10,6 @@ import { RentalModule } from './rental/rental.module';
   declarations: [
     AppComponent,
     HeaderComponent
-
   ],
   imports: [
     BrowserModule,
