@@ -21,4 +21,8 @@ export class RentalDetailComponent {
             })
         })
     }
+
+    helloWorld(message?: string) {
+        alert(message);
+    }
 }
