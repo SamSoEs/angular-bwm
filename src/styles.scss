@@ -5,7 +5,7 @@ html, body {
 }
 
 html ,body, p {
-    color: $dark-grey-color
+    color: $dark-gray-color
 }
 
 
@@ -14,5 +14,19 @@ html ,body, p {
       font-size: 30px;
       font-weight: bold;
       margin-bottom: 20px;
+    }
+}
+
+.type{
+    &-apartment{
+        color: #a72da3 !important;
+    }
+
+    &-condo{
+        color: #d68000 !important;
+    }
+
+    &-house{
+        color:#bf1818 !important;
     }
 }
